@@ -12,6 +12,8 @@
 		174F55EC1E54D6F500243CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174F55EA1E54D6F500243CFD /* Main.storyboard */; };
 		174F55EE1E54D6F500243CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174F55ED1E54D6F500243CFD /* Assets.xcassets */; };
 		174F55F11E54D6F500243CFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174F55EF1E54D6F500243CFD /* LaunchScreen.storyboard */; };
+		174F55F91E54E67900243CFD /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174F55F81E54E67900243CFD /* CustomViewController.swift */; };
+		174F55FB1E54E68B00243CFD /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174F55FA1E54E68B00243CFD /* TimeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		174F55ED1E54D6F500243CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		174F55F01E54D6F500243CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		174F55F21E54D6F500243CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174F55F81E54E67900243CFD /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		174F55FA1E54E68B00243CFD /* TimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				174F55ED1E54D6F500243CFD /* Assets.xcassets */,
 				174F55EF1E54D6F500243CFD /* LaunchScreen.storyboard */,
 				174F55F21E54D6F500243CFD /* Info.plist */,
+				174F55F81E54E67900243CFD /* CustomViewController.swift */,
+				174F55FA1E54E68B00243CFD /* TimeViewController.swift */,
 			);
 			path = TimerClock_New_Version;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174F55F91E54E67900243CFD /* CustomViewController.swift in Sources */,
+				174F55FB1E54E68B00243CFD /* TimeViewController.swift in Sources */,
 				174F55E91E54D6F500243CFD /* ViewController.swift in Sources */,
 				174F55E71E54D6F500243CFD /* AppDelegate.swift in Sources */,
 			);

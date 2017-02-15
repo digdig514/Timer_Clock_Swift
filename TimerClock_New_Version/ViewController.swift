@@ -19,7 +19,23 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func unwindToSelection(sender: UIStoryboardSegue)
+    {
+        
+    }
+    override func prepare(for segue:UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "Preset 1" {
+            let vc = segue.destination as! TimeViewController
+            vc.counter = Int(60)
+        } else if segue.identifier == "Preset 2" {
+            let vc = segue.destination as! TimeViewController
+            vc.counter = Int(3600)
+        } else if segue.identifier == "Preset 3" {
+            let vc = segue.destination as! TimeViewController
+            vc.counter = Int(7200)
+        }
+    }
 
 }
 
